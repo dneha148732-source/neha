@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website | Home</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        header {
+            background: #222;
+            color: #fff;
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #4da6ff;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: #f4f4f4;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto 25px;
+            color: #555;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #0066cc;
+            color: #fff;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #0052a3;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 60px 5%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .feature-box {
+            flex: 1 1 300px;
+            background: #fafafa;
+            padding: 25px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .feature-box h3 {
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">BrandName</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Our Website</h1>
+        <p>We build simple, fast, and reliable solutions tailored to your needs. Get started today and see the difference.</p>
+        <a href="#services" class="btn">Explore Services</a>
+    </section>
+
+    <!-- Three-Column Content Section -->
+    <section class="features" id="services">
+        <div class="feature-box">
+            <h3>Fast Performance</h3>
+            <p>Clean code ensures your website loads quickly on both desktop and mobile devices.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Responsive Design</h3>
+            <p>Layouts automatically adapt to fit phones, tablets, and large monitors.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Easy to Customize</h3>
+            <p>Swap out colors, fonts, and text easily using standard HTML and CSS.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 BrandName. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
